@@ -75,7 +75,45 @@ p#footer {
     margin-top: 32px;
     font-size: 1em;
 }
+@media only screen and (max-width: 600px) {
+  .languages {
+      width: 150px;
+      height: 10px;
+      top: 100px;
+      left: 120px;
+  }
 
+  .webdevelopment {
+    width: 150px;
+    height: 10px;
+    top: 300px;
+    left: 120px;
+  }
+
+  .Management {
+    width: 150px;
+    height: 10px;
+    top: 500px;
+    left: 120px;
+  }
+  .Control {
+    width: 150px;
+    height: 10px;
+    top: 700px;
+    left: 120px;
+  }
+  footer {
+
+      height: 50px;
+      top: 500px;
+      left:0;
+  }
+  p#footer {
+      margin-top: 20px;
+      font-size: 10px;
+
+  }
+}
 /*
 ====================================================================================================================================================================
                                                     End Footer

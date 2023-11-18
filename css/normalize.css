@@ -347,3 +347,19 @@ template {
 [hidden] {
   display: none;
 }
+
+@media only screen and (max-width: 600px) {
+  
+  footer {
+
+      height: 50px;
+      top: 900px;
+      left:0;
+  }
+  p#footer {
+      margin-top: 20px;
+      font-size: 10px;
+
+  }
+
+}

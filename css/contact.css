@@ -53,6 +53,33 @@ p#footer {
     font-size: 1em;
 }
 
+@media only screen and (max-width: 600px) {
+
+  section#contact{
+    top: 100px;
+    left: 50px;
+    right: 50px;
+  }
+
+
+  form {
+    
+      top: 500px;
+      left: 100px;
+  }
+
+  footer {
+
+      height: 50px;
+      top: 900px;
+      left:0;
+  }
+  p#footer {
+      margin-top: 20px;
+      font-size: 10px;
+
+  }
+}
 /*
 ====================================================================================================================================================================
                                                     End Footer

@@ -56,6 +56,32 @@ p#footer {
     font-size: 1em;
 }
 
+@media only screen and (max-width: 600px) {
+
+  #teacher {
+      top: 150px;
+      left: 40px;
+      height: 300px;
+  }
+
+  div.course {
+      width: 400px;
+      top: 500px;
+      left: 10px;
+      right:10px;
+  }
+
+  footer {
+    height: 50px;
+    top: 900px;
+    left:0;
+  }
+  p#footer {
+      margin-top: 20px;
+      font-size: 10px;
+
+  }
+}
 /*
 ====================================================================================================================================================================
                                                     End Footer
