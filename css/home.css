@@ -29,7 +29,10 @@ img#slide {
 */
 
 
-
+marquee.scrollleft{
+    color:blue;
+    font-size: 20px;
+}
 
 
 
@@ -148,20 +151,20 @@ p#footer {
 
     div.left {
 
-        top: 610px;
-        left: 10px;
+        top: 600px;
+        left: 5px;
     }
 
     div.middle {
 
-        top: 610px;
-        left: 140px;
+        top: 600px;
+        left: 135px;
 
     }
     div.right{
 
-        top: 610px;
-        left: 270px;
+        top: 600px;
+        left: 265px;
 
 
     }
